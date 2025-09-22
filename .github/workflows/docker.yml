@@ -24,6 +24,6 @@ jobs:
           image-name: my-app
           docker-username: ${{ secrets.DOCKER_USERNAME }}
           docker-pat: ${{ secrets.DOCKER_PAT }}
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.GITH_TOKEN }}
           publish-dockerhub: true
           publish-ghcr: true
