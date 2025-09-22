@@ -21,7 +21,7 @@ jobs:
       - name: Build and Push Docker Image
         uses: afreisinger/build-push-action@v1.3.3
         with:
-          image-name: ironman143000/github-action-demo
+          image-name: github-action-demo
           docker-username: ${{ secrets.DOCKER_USERNAME }}
           docker-pat: ${{ secrets.DOCKER_PAT }}
           github-token: ${{ secrets.GITH_TOKEN }}
